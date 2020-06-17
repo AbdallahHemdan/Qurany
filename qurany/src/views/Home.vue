@@ -30,6 +30,17 @@
           </button>
         </div>
       </section>
+      <section class="playlist">
+        <h3>My playlist</h3>
+        <button
+          v-for="quran in listOfQuran"
+          :key="quran.src"
+          @click="play(quran)"
+          :class="quran.src === currentQuran.src ? 'quran playing' : 'quran'"
+        >
+          {{ quran.title }} - {{ quran.artist }}
+        </button>
+      </section>
     </main>
   </div>
 </template>
