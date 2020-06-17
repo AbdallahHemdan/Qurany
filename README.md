@@ -2,8 +2,6 @@
   <a href="https://github.com/AbdallahHemdan/Qurany" rel="noopener">
     
   ![Component 1](https://user-images.githubusercontent.com/40190772/84895221-4eb69300-b0a2-11ea-854b-83a27da27f4c.png)
-
-
   
   </a>
 </p>
@@ -22,7 +20,7 @@
 
 
 # About
-> Qurany is a simple music player built using Vue.js as a side-project to enhance my skill in vue.
+> Qurany is a simple music player built using Vue.js as a side-project to enhance my skill in vue now you can try it from [here](https://abdallahhemdan.github.io/Qurany/).
 
 ### Build with
 - [Vue JS](https://vuejs.org/)
