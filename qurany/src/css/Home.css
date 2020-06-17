@@ -1,0 +1,116 @@
+header {
+  text-align: center;
+}
+.navbar {
+  height: 80px;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 65px;
+}
+
+.img-logo {
+  width: 55px;
+  margin-right: 20px;
+}
+.player-control-logo {
+  width: 40px;
+}
+.play-control-logo {
+  width: 50px;
+}
+main {
+  width: 100%;
+  max-width: 768px;
+  margin: 100px auto;
+  padding: 25px;
+}
+
+.quran-title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.quran-title span {
+  font-weight: 400;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.play,
+.pause {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 25px;
+  margin: 0px 50px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #cc2e5d;
+}
+.next,
+.prev {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin: 0px 15px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #ff5858;
+}
+
+.playlist {
+  padding: 0px 30px;
+}
+.playlist h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.playlist .quran {
+  display: block;
+  width: 65%;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 20px auto;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+.playlist .quran:hover {
+  color: #ff5858;
+}
+
+.playlist .quran.playing {
+  color: #fff;
+  background-image: linear-gradient(to right, #cc2e5d, #ff5858);
+}
