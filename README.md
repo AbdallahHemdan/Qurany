@@ -24,12 +24,43 @@
 # About
 > Qurany is a simple music player built using Vue.js as a side-project to enhance my skill in vue.
 
+### Build with
+- [Vue JS](https://vuejs.org/)
+
+## Getting Started
+> This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these instructuins.
+
+### Installation
+
+1. **_Clone the repository_**
+
+```sh
+$ git clone https://github.com/AbdallahHemdan/Qurany.git
+```
+2. **_Navigate to repository directory_**
+```sh
+$ cd Qurany
+```
+
+3. **_Install dependencies_**
+
+```sh
+$ npm install
+```
+
+### Running
+
+**_Running on development mode_**
+```sh
+$ npm run serve
+```
 ## Screenshots
 
 <div align="center" width="500px">
 
-![chrome_hwIcb04Vc2](https://user-images.githubusercontent.com/40190772/84894807-b5877c80-b0a1-11ea-99b2-79f7d41ca253.png)
-![chrome_PyFjIyfBAY](https://user-images.githubusercontent.com/40190772/84894809-b6b8a980-b0a1-11ea-9fb6-d287713bf26d.png)
+![chrome_hwIcb04Vc2](https://user-images.githubusercontent.com/40190772/84895526-ba98fb80-b0a2-11ea-87ce-daabc63c825d.png)
+![chrome_PyFjIyfBAY](https://user-images.githubusercontent.com/40190772/84895530-bbca2880-b0a2-11ea-8971-839a1114c604.png)
+
 
 </div>
 
