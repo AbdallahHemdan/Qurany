@@ -1,11 +1,6 @@
 <template>
   <div class="music-card">
-    <header class="navbar">
-      <h1>
-        <img :src="logoSrc" alt="headphone logo" class="img-logo" />
-        <span>Qurany</span>
-      </h1>
-    </header>
+    <app-header></app-header>
     <main>
       <section class="player">
         <h1 class="quran-title">
@@ -47,7 +42,7 @@
 
 <script>
 import listOfQuran from "./../quran";
-
+import AppHeader from "./../components/AppHeader.vue";
 export default {
   name: "home",
   data: function() {
@@ -63,6 +58,9 @@ export default {
       listOfQuran,
       player: new Audio()
     };
+  },
+  components: {
+    AppHeader
   },
   methods: {
     play: function(quran) {
