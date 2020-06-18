@@ -5,6 +5,11 @@ const listOfQuran = [
     src: require("./assets/quran/haza3.mp3"),
   },
   {
+    title: "استجيبوا لربكم",
+    artist: "عبدالرشيد الصوفي",
+    src: require("./assets/quran/sofy2.mp3"),
+  },
+  {
     title: "لا إله الا هو سبحانه",
     artist: "القطامي",
     src: require("./assets/quran/alkatamy.mp3"),
@@ -53,6 +58,16 @@ const listOfQuran = [
     title: "وصف الجنة",
     artist: "منصور السالمي",
     src: require("./assets/quran/mansour.mp3"),
+  },
+  {
+    title: "وذا النون",
+    artist: "اسلام صبحي",
+    src: require("./assets/quran/getfvid.mp3"),
+  },
+  {
+    title: "سورة النمل",
+    artist: "اسلام صبحي",
+    src: require("./assets/quran/elnaml.mp3"),
   },
 ];
 
