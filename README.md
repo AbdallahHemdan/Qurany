@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/AbdallahHemdan/Qurany" rel="noopener">
     
-  ![Component 1](https://user-images.githubusercontent.com/40190772/84895221-4eb69300-b0a2-11ea-854b-83a27da27f4c.png)
+  ![Qurany](https://user-images.githubusercontent.com/40190772/84964827-71ca5c80-b10d-11ea-9acf-14eb90478b0c.png)
   
   </a>
 </p>
